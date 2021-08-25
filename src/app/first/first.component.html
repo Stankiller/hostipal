@@ -1,0 +1,13 @@
+    <img [src]='photo'>
+    <div>
+      <h1>問題一</h1>
+      <div>
+        <section class="example-section">
+          <mat-checkbox class="example-margin" ([ngModel])="checked">是</mat-checkbox>
+          <mat-checkbox class="example-margin" ([ngModel])="unchecked">否</mat-checkbox>
+        </section>
+      </div>
+      <div>
+        <button mat-button (click)="next()">Next</button>
+      </div>
+    </div>
